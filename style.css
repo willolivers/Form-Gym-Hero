@@ -1,0 +1,141 @@
+*{
+    margin: 0 auto;
+	padding: 0;
+    box-sizing: border-box;
+}
+body{ 
+	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	background: url(../imagens/fundo-cinza1.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-color: #131313;
+}
+
+
+
+#container1{
+    max-width: 1000px;
+	width: 90%;
+	background-color: #fff;
+    background: -webkit-gradient(linear, left top, right top, from(#333333), to(#dd1818));
+	margin: 0 auto;
+	border-radius: 10px;
+	text-align: center;
+	margin: 32 auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+
+.dados{
+	width: 100%;
+    height: 30px;
+	margin-bottom:20px;
+    border:none;
+    border-radius: 8px;
+    padding: 0px 5px 0px 5px;
+}
+
+.dados:hover{
+    background-color: #f1e7e7;
+}
+
+form div ::placeholder{
+    padding-left: 10px;
+}
+
+#formulario{
+    padding: 20px;
+}
+
+
+
+
+/****************************************************************
+imagens */
+
+#logo{
+	height: 133px;
+    margin: 0 auto;
+    display: flex;
+    padding: 20px;
+}
+
+#gif{
+	width: 50%;
+	margin:0 auto;
+    float: left;
+    border-radius: 10px 0 0 10px;
+    padding: 10px;
+}
+
+
+
+/********************************************************************
+configuracoes solo*/
+#submit{
+    margin: 10px 0 0 0;
+    background: #8B0000;
+    color: #fff; 
+    border: 2px solid #fff;
+    border-radius: 30px;
+    font-weight: bold;
+    transition: transform .3s;
+}
+
+#submit:hover{
+    background: #dd1818;
+    transform: scale(1.1);
+}
+
+.question{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    padding-top: 20px;
+}
+
+h2{
+
+    color: #fff;
+}
+
+.thankyou{
+    color: #fff;
+    padding: 30px;
+}
+
+.nameGym{
+    color: #eaea15;
+}
+
+p{
+    text-align: center;
+    padding-bottom: 30px;
+    color: #fff;
+}
+
+legend{
+	text-align: left;
+    font-weight: bolder;
+    color: #fff;
+    box-sizing: border-box;
+}
+
+.rodape{
+    color: #fff;
+    margin: 20px;
+    display: flex;
+    align-items: center;
+}
+
+.rodape a{
+    text-decoration: none;
+    color: #fff;
+}
+
+input{
+    outline: none;
+}
+
