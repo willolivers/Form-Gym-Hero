@@ -16,42 +16,44 @@
 		   <img id="logo" src="imagens/logo2.png">
 	 </article>
 
-			<main id="container1">
+			<main class="container1">
 				<img id="gif" src="imagens/giphy.gif">
 				
-					<form id="formulario">
+					<form id="formulario" action="obrigado.html">
 			
-						<div class="question">
+						<section class="question">
 							<h2>Ainda nao é cliente?</h2>
-							<p>Ligue no 85 987999618 e faça seu<br>cadastro ou preencha as informaçoes<br>abaixo e o nosso time entrara em contato.</p>
-				 		</div>
+							<p>Ligue no (85 98799-9618) e faça seu<br>cadastro ou preencha as informaçoes<br>abaixo e o nosso time entrara em contato.</p>
+						</section>
 			
-						<div>
-							<legend>Seu nome*</legend>
-							  <input class="dados" type="text" name="nome" id="nome" placeholder="Nome completo">
-						</div>
+						
+						 <label>Seu nome*</label>
+						 <input class="dados" type="text" name="nome" placeholder="Nome completo" required="required">
+						
 			
-						<div>
-							<legend>Seu e-mail*</legend>
-							  <input class="dados" type="email" name="email" id="email" placeholder="Seu e-mail">
-						</div>
+						
+						<label>Seu e-mail*</label>
+						 <input class="dados" type="email" name="email" placeholder="Seu e-mail" required="required">
+						
 			
-						<div>
-							<legend>Seu Telefone*</legend>
-							  <input class="dados" type="tel" name="telefone" id="telefone" placeholder="Seu telefone">
-						</div>
+						
+						<label>Seu Telefone*</label>
+						<input class="dados" type="tel" name="telefone"placeholder="Seu telefone" required="required">
+						
 			
-						<div>
-							  <input class="dados" id="submit" type="button" value="Enviar" onclick="window.location.href='obrigado.html'">
-						</div>
+						<!--<div>
+							  <input class="dados" id="submit" type="submit" value="Enviar" onclick="window.location.href='obrigado.html'">
+						</div>-->
+
+						
+						<input class="dados" id="submit" type="submit" value="Enviar">
+					  
 					</form>
 				</main>
 
-		<footer class="rodape">
-			<span>
-				&copy; Feito por <a href="https://github.com/willolivers">WillOlivers</a> 2022
-			  </span>
-		</footer>
+			<footer class="rodape">
+					&copy; <a href="https://github.com/willolivers"> WillOlivers | 2022 </a>
+			</footer>
 
 	</body>
 </html>
