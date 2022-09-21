@@ -1,4 +1,4 @@
-# Form - Gym HERO
+# Form - Academia HERO
 
 > Formulário
 
