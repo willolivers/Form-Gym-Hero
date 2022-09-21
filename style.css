@@ -3,17 +3,23 @@
 	padding: 0;
     box-sizing: border-box;
 }
+
+
 body{ 
 	font-family: "Trebuchet MS", Helvetica, sans-serif;
 	background: url(../imagens/fundo-cinza1.png);
     background-repeat: no-repeat;
     background-size: 100%;
     background-color: #131313;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
 }
 
 
 
-#container1{
+.container1{
     max-width: 1000px;
 	width: 90%;
 	background-color: #fff;
@@ -41,7 +47,7 @@ body{
     background-color: #f1e7e7;
 }
 
-form div ::placeholder{
+form ::placeholder{
     padding-left: 10px;
 }
 
@@ -116,24 +122,26 @@ p{
     color: #fff;
 }
 
-legend{
-	text-align: left;
-    font-weight: bolder;
+label{
     color: #fff;
-    box-sizing: border-box;
+    display: flex;
+    font-weight: bolder;
+    text-transform: uppercase;
+
 }
 
 .rodape{
     color: #fff;
-    margin: 20px;
+    height: 100%;
     display: flex;
-    align-items: center;
+    margin: 40px;
 }
 
 .rodape a{
     text-decoration: none;
     color: #fff;
 }
+
 
 input{
     outline: none;
